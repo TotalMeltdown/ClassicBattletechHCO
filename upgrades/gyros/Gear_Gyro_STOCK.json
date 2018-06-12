@@ -1,0 +1,65 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "",
+        "Model" : "",
+        "UIName" : "Test Gyro",
+        "Id" : "Gear_Gyro_STOCK",
+        "Name" : "Light Gyro Test",
+        "Details" : "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+        "Icon" : "uixSvgIcon_equipment_Gyro"
+    },
+    "BonusValueA" : "Gyroscopic",
+    "BonusValueB" : "Orientation",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 1,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DefUnsteadySet40",
+				"Name" : "Gyroscopic Orientation",
+				"Details" : "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+				"Icon" : "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData" : 
+			{
+				"statName" : "UnsteadyThreshold",
+				"operation" : "Set",
+				"modValue" : "41.0",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
