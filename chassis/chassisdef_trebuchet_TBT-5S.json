@@ -1,0 +1,202 @@
+{
+    "Description": {
+        "Cost": 4293500,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Trebuchet",
+        "Id": "chassisdef_trebuchet_TBT-5S",
+        "Name": "Trebuchet",
+        "Details": "The 5S variant of the Trebuchet modifies the design from a long-range support 'Mech to a close combat machine. The LRM launchers have been completely replaced with two SRM-6 launchers and an additional eight heat sinks while retaining the three medium lasers.",
+        "Icon": "uixTxrIcon_trebuchet"
+    },
+    "MovementCapDefID": "movedef_trebuchet_TBT-5N",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_trebuchet",
+    "PrefabIdentifier": "chrPrfMech_trebuchetBase-001",
+    "PrefabBase": "trebuchet",
+    "Tonnage": 50,
+    "InitialTonnage": 23.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 1191,
+    "Heatsinks": 0,
+    "TopSpeed": 86,
+    "TurnRadius": 90,
+    "MaxJumpjets": 0,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 0.75,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 25,
+    "MeleeInstability": 50,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 75,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 50,
+    "DFAInstability": 65,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 3,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+			],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+			],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "VariantName": "TBT-5S",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Close Assault",
+    "YangsThoughts": "The 5S variant of the Trebuchet modifies the design from a long-range support 'Mech to a close combat machine. The LRM launchers have been completely replaced with two SRM-6 launchers and an additional eight heat sinks while retaining the three medium lasers."
+}

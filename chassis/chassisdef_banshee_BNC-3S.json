@@ -1,0 +1,194 @@
+{
+    "Description": {
+        "Cost": 9522079,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Banshee",
+        "Id": "chassisdef_banshee_BNC-3S",
+        "Name": "Banshee",
+        "Details": "The Banshee 3S was an attempt to turn the Banshee into a typical assault 'Mech, replacing the engine with a lighter one. While its slower, it freed up a great deal of room for weapons. It's armed with two PPCs and an AC/10 to engage at range, four Medium Lasers and an SRM-6 launcher for short-range, and a second Small Laser to round out the weapons payload. Five heat sinks were added, yet overheating remains a problem.",
+        "Icon": "uixTxrIcon_banshee"
+    },
+    "MovementCapDefID": "movedef_banshee_BNC-3S",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_banshee",
+    "PrefabIdentifier": "chrPrfMech_bansheeBase-001",
+    "PrefabBase": "banshee",
+    "Tonnage": 95,
+    "InitialTonnage": 32.0,
+    "weightClass": "ASSAULT",
+    "BattleValue": 1595,
+    "Heatsinks": 0,
+    "TopSpeed": 64,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 0.25,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 48,
+    "MeleeInstability": 95,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 143,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 120,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {"WeaponMount": "Energy", "Omni": false},
+                {"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 3,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+				{"WeaponMount": "Energy", "Omni": false }
+			],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+				{"WeaponMount": "Energy", "Omni": false},
+                {"WeaponMount": "AntiPersonnel", "Omni": false}
+			],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 300,
+            "MaxRearArmor": 150,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+			],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "BNC-3S",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Heavy Brawler & Skirmisher",
+    "YangsThoughts": "The Banshee 3S was an attempt to turn the Banshee into a typical assault 'Mech, replacing the engine with a lighter one. While its slower, it freed up a great deal of room for weapons. It's armed with two PPCs and an AC/10 to engage at range, four Medium Lasers and an SRM-6 launcher for short-range, and a second Small Laser to round out the weapons payload. Five heat sinks were added, yet overheating remains a problem."
+}

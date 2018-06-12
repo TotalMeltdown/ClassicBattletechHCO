@@ -1,0 +1,206 @@
+{
+    "Description": {
+        "Cost": 3147225,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Blackjack",
+        "Id": "chassisdef_blackjack_BJ-1DC",
+        "Name": "Blackjack",
+        "Details": "The 1DC Blackjack is another variant inspired by the Xhosha VII battle and was introduced a year after the similar 1DB. Rather than replace the arm-mounted weapons the 1DC sacrifices the 'Mech's jumping ability in order to add two Small Lasers and an additional heat sink to deal with the extra heat load.",
+        "Icon": "uixTxrIcon_blackjack"
+    },
+    "MovementCapDefID": "movedef_blackjack_BJ-1",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_blackjack",
+    "PrefabIdentifier": "chrPrfMech_blackjackBase-001",
+    "PrefabBase": "blackjack",
+    "Tonnage": 45,
+    "InitialTonnage": 16.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 949,
+    "Heatsinks": 0,
+    "TopSpeed": 64,
+    "TurnRadius": 90,
+    "MaxJumpjets": 0,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 0.75,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 23,
+    "MeleeInstability": 45,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 68,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 45,
+    "DFAInstability": 55,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 3,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+                {"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Missile", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Ballistic", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+				{"WeaponMount": "Energy", "Omni": false},
+                {"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false},
+				{"WeaponMount": "AntiPersonnel", "Omni": false}
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "VariantName": "BJ-1DC",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "",
+    "YangsThoughts": "The 1DC Blackjack is another variant inspired by the Xhosha VII battle and was introduced a year after the similar 1DB. Rather than replace the arm-mounted weapons the 1DC sacrifices the 'Mech's jumping ability in order to add two Small Lasers and an additional heat sink to deal with the extra heat load."
+}
