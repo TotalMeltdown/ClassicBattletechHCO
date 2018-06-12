@@ -1,0 +1,67 @@
+{
+    "ID": "shopdef_Weapons_special_RestoArtru",
+    "RequirementTags": {
+        "items": [
+            "planet_name_artru_flipped",
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_progress_1"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+			"ID" : "Weapon_Gauss",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		{
+			"ID" : "Weapon_PPCER",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		{
+			"ID" : "Weapon_LaserER_Large",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		{
+			"ID" : "Weapon_LaserER_Medium",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		{
+			"ID" : "Weapon_LaserER_Small",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		{
+			"ID" : "Weapon_LaserPulse_Large",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		{
+			"ID" : "Weapon_LaserPulse_Medium",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		{
+			"ID" : "Weapon_LaserPulse_Small",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 1
+		},
+		
+	]
+}

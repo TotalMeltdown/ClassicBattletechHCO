@@ -1,0 +1,51 @@
+{
+   "ID" : "shopdef_Mech_RestoArtru",
+   "RequirementTags" : {
+		"items" : [
+            "planet_name_artru_flipped"
+		],
+		"tagSetSourceFile" : ""
+	},
+	"ExclusionTags" : {
+      "items" : [],
+      "tagSetSourceFile" : ""
+	},
+	"Inventory" : [],
+	"Specials" : [
+		{
+			"ID" : "mechdef_atlas_AS7-D-HT",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 25
+		},
+		{
+			"ID" : "mechdef_blackknight_BL-6b-KNT",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 25
+		},
+		{
+			"ID" : "mechdef_catapult_CPLT-C1",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 25
+		},
+		{
+			"ID" : "mechdef_griffin_GRF-4N",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 25
+		},
+		{
+			"ID" : "mechdef_highlander_HGN-732b",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 1,
+			"Weight" : 25
+		}
+	]
+}
