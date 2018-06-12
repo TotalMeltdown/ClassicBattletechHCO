@@ -1,0 +1,36 @@
+{
+	"Description" : {
+		"Id" : "DesignMaskForest",
+		"Name" : "FOREST",
+		"Details" : "Forest reduces movement and spotting distance and provides COVER (+4 to hit).",
+		"Icon" : "uixSvgIcon_designMask_forest"
+	},
+    "moveCostMechLight" : 3.0,
+    "moveCostMechMedium" : 3.0,
+    "moveCostMechHeavy" : 3.0,
+    "moveCostMechAssault" : 3.0,
+    "moveCostTrackedLight" : 3.0,
+    "moveCostTrackedMedium" : 3.0,
+    "moveCostTrackedHeavy" : 3.0,
+    "moveCostTrackedAssault" : 3.0,
+    "moveCostWheeledLight" : 3.0,
+    "moveCostWheeledMedium" : 3.0,
+    "moveCostWheeledHeavy" : 3.0,
+    "moveCostWheeledAssault" : 3.0,
+    "moveCostSprintMultiplier" : 3.0,
+    "stabilityDamageMultiplier" : 1.0,
+	"visibilityMultiplier" : 0.5,
+    "visibilityHeight" : 24.0,
+    "signatureMultiplier" : 0.5,
+    "targetabilityModifier" : 4.0,
+    "grantsGuarded" : false,
+    "grantsEvasive" : false,
+    "toHitFromModifier" : 1.0,
+    "heatSinkMultiplier" : 1.0,
+    "heatPerTurn" : 0,
+    "legStructureDamageMin" : 0,
+    "legStructureDamageMax" : 0,
+    "canBurn" : false,
+    "canExplode" : false
+	
+}
