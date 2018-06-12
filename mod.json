@@ -1,0 +1,24 @@
+{
+	"Name": "CBT_Hardcore",
+    "Enabled": true,
+
+    "Version": "1.4x",
+    "Description": "Classic Battletech Rule, Finance and Difficulty Overhaul.",
+    "Author": "TotalMeltdown",
+	
+	"Manifest": [
+		{ Type: "AbilityDef", Path: "abilities\\" },
+		{ Type: "AmmunitionBoxDef", Path: "ammunitionBox\\"	},
+		{ Type: "ChassisDef", Path: "chassis\\" },
+		{ Type: "DesignMaskDef", Path: "designMasks\\" },
+		{ Type: "HardpointDataDef", Path: "hardpoints\\" },
+		{ Type: "HeatSinkDef", Path: "heatsinks\\" },
+		{ Type: "LanceDef", Path: "lance\\" },
+		{ Type: "MechDef", Path: "mech\\" },
+		{ Type: "MovementCapabilitiesDef", Path: "movement\\" },
+		{ Type: "ShipModuleUpgrade", Path: "shipUpgrades\\" },
+		{ Type: "ShopDef", Path: "shops\\" },
+		{ Type: "UpgradeDef", Path: "upgrades\\" },
+		{ Type: "WeaponDef", Path: "weapon\\" }
+	]
+}
