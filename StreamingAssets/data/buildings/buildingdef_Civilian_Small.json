@@ -1,0 +1,15 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Civilian_Small",
+      "Name" : "Small Building",
+      "Details" : "Small building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 25,
+   "Opacity" : 100,
+   "TerrainMask" : "Impassable",
+}

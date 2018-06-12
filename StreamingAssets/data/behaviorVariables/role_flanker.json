@@ -1,0 +1,76 @@
+{
+   "behaviorVariables" : [
+      {
+         "k" : "Float_PreferLowerMovementFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : -1,
+         }
+      },
+      {
+         "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 1.0,
+         }
+      },
+      {
+         "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 10,
+         }
+      },
+      {
+         "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 10,
+         }
+      },
+      {
+         "k" : "Float_PreferAttackingLowerArmorHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.75,
+         }
+      },
+      {
+         "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.90,
+         }
+      },
+      {
+         "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.0,
+         }
+      },
+      {
+         "k" : "Float_PreferNoCloserThanPersonalSpaceToAllyFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 1.0,
+         }
+      },
+      {
+         "k" : "Float_InfluenceMapSampleDistance",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 20.0,
+         }
+      },
+      {
+         "k" : "Float_PreferInsideMeleeRangeFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.5,
+         }
+      },
+    ]
+}
+
+
