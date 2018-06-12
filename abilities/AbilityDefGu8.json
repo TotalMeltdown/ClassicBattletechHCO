@@ -1,0 +1,44 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefGu8",
+		"Name" : "DIE HARD",
+		"Details" : "PASSIVE: This Mechwarrior is a seasoned Veteran and has a very high chance of survivability.",
+		"Icon" : "uixSvgIcon_ability_bulwark"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Guts",
+	"ReqSkillLevel" : 8,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefGu8",
+				"Name" : "DIE HARD",
+				"Details" : "PASSIVE: This Mechwarrior is a seasoned Veteran and has a very high chance of survivability.",
+				"Icon" : "uixSvgIcon_ability_bulwark"
+			},
+			"statisticData" : 
+			{
+				"targetCollection" : "Pilot",
+				"statName" : "Health",
+				"operation" : "Int_Add",
+				"modValue" : "3",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		}
+    ],
+	"IsPrimaryAbility" : true
+}

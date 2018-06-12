@@ -1,0 +1,43 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefGu5",
+		"Name" : "HEAT MANAGEMENT",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior can gain 10 more points of heat before Overheating.",
+		"Icon" : "uixSvgIcon_equipment_Heatsink"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Guts",
+	"ReqSkillLevel" : 5,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" :
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefGu5",
+				"Name" : "HEAT MANAGEMENT",
+				"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior can gain 10 more points of heat before Overheating.",
+				"Icon" : "uixSvgIcon_equipment_Heatsink"
+			},
+			"statisticData" : 
+			{
+				"statName" : "OverheatLevel",
+				"operation" : "Int_Add",
+				"modValue" : "10",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		}
+	],
+	"IsPrimaryAbility" : true
+}
